@@ -1,17 +1,11 @@
 # JavaScript排序算法
-# 1. 冒泡排序
-#最快（Best Cases）：当输入的数据已经是正序时
-#最慢（Worst Cases）：当输入的数据是反序时
-function bubbleSort(arr) {
-	var len = arr.length;
-    for (var i = 0; i < len; i++) {
-        for (var j = 0; j < len - 1 - i; j++) {
-            if (arr[j] > arr[j+1]) {        //相邻元素两两对比
-                var temp = arr[j+1];        //元素交换
-                arr[j+1] = arr[j];
-                arr[j] = temp;
-            }
-        }
-    }
-    return arr;
-}
+1. 冒泡排序（Bubble Sort）
+2. 选择排序（Selection Sort）
+3. 插入排序（Insertion Sort）
+4. 希尔排序（Shell Sort）
+5. 归并排序（Merge Sort）
+6. 快速排序（Quick Sort）
+7. 堆排序（Heap Sort）
+8. 计数排序（Counting Sort）
+9. 桶排序（Bucket Sort）
+10. 基数排序（Radix Sort） 
